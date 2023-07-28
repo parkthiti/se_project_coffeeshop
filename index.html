@@ -27,7 +27,7 @@
             class="nav__logo"
           />
           <ul class="nav__links">
-            <li><a href="" class="nav__link">Recipes</a></li>
+            <li><a href="#recipes" class="nav__link">Recipes</a></li>
             <li><a href="" class="nav__link">Book a table</a></li>
             <li><a href="" class="nav__link">Menu</a></li>
             <li><a href="" class="nav__link">Contacts</a></li>
@@ -58,21 +58,20 @@
         </div>
       </header>
       <main class="content">
-        <section class="recipes">
+        <section id="recipes" class="recipes">
           <h2 class="recipes__title">Recipes</h2>
           <p class="recipes__subtitle">
             Check out some recipes we've collected for <br />your home-brewing
             convenience:
           </p>
           <div class="recipes__videos">
-            <div>
+            <div class="recipes__iframe">
               <iframe
                 src="https://www.youtube.com/embed/j6VlT_jUVPc"
                 title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen
-                class="iframe__video"
               ></iframe>
               <p class="recipes__video-caption">
                 <span>Aeropress recipe</span> ~5 min
@@ -85,7 +84,6 @@
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen
-                class="iframe__video"
               ></iframe>
               <p class="recipes__video-caption">
                 <span>Freach press recipe</span> ~15 min
