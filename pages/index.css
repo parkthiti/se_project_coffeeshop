@@ -18,6 +18,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #ffffff;
+  background-position: center;
 }
 
 .nav {
@@ -48,12 +49,12 @@
 
 .header__title {
   max-width: 729px;
-  font-family: "Inter";
   font-size: 60px;
   line-height: 72px;
   margin: 183px 0 0;
   letter-spacing: -0.6px;
   font-weight: 500;
+  z-index: 1;
 }
 
 .header__description {
@@ -74,10 +75,10 @@
 
 .header__image {
   position: absolute;
+  top: 124px;
+  right: 5px;
   height: 568px;
   width: 646px;
-  top: 124px;
-  right: 50px;
 }
 
 .header__footer {
