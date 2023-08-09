@@ -36,7 +36,7 @@
 .about__paragraph {
   margin: 0;
   padding: 0 0 20px;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;

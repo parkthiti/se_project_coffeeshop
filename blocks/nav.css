@@ -17,6 +17,7 @@
   list-style-type: none;
   gap: 20px;
   color: black;
+  font-weight: 500;
 }
 
 .nav__link {

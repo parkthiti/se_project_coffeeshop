@@ -21,11 +21,9 @@
 
 .card__list-item {
   display: flex;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 20px;
 }
 
 .card__list-divider {
