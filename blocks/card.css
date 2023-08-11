@@ -21,7 +21,7 @@
 
 .card__list-item {
   display: flex;
-  font-family: "Noto Serif", "Times New Roman", Georgia, Garamond;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
 }
