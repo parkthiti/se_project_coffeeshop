@@ -13,12 +13,14 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  margin-bottom: 32px;
   display: block;
 }
 
 .form__label_type_checkbox {
   display: flex;
   justify-content: center;
+  margin: 0;
 }
 
 .form__checkbox {
